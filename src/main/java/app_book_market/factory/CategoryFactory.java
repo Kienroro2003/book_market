@@ -1,7 +1,7 @@
 package app_book_market.factory;
 
-import app_book_market.model.Category;
+import app_book_market.build.impl.CategoryBuilder;
 
 public interface CategoryFactory {
-    Category newCategory(String name);
+    CategoryBuilder newCategory(String name);
 }
